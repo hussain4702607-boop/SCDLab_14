@@ -1,48 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>My Stylish Web Page</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travel Explorer</title>
 
-    <style>
-        body {
-            background-color: #f0f8ff;
-            font-family: Arial, sans-serif;
-            text-align: center;
-            padding-top: 100px;
-        }
-
-        h1 {
-            color: darkblue;
-        }
-
-        p {
-            color: #444;
-            font-size: 18px;
-        }
-
-        button {
-            background-color: darkblue;
-            color: white;
-            border: none;
-            padding: 12px 20px;
-            font-size: 16px;
-            border-radius: 8px;
-            cursor: pointer;
-        }
-
-        button:hover {
-            background-color: navy;
-        }
-    </style>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <h1>Hello World 🌍</h1>
+    <!-- Navbar -->
+    <header>
+        <nav class="navbar">
+            <h2 class="logo">Travel Explorer</h2>
 
-    <p>This is a simple styled HTML page.</p>
+            <ul class="nav-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Destinations</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-    <button>Click Here</button>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Explore The World</h1>
+
+            <p>
+                Discover beautiful places, amazing adventures,
+                and unforgettable memories.
+            </p>
+
+            <button>Start Exploring</button>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about">
+        <h2>Why Choose Us?</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+
+                <h3>Beautiful Beaches</h3>
+
+                <p>
+                    Relax and enjoy stunning beaches around the world.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Mountains">
+
+                <h3>Mountain Adventures</h3>
+
+                <p>
+                    Experience thrilling journeys through breathtaking mountains.
+                </p>
+            </div>
+
+            <div class="card">
+                <img src="https://images.unsplash.com/photo-1493558103817-58b2924bce98" alt="City">
+
+                <h3>Modern Cities</h3>
+
+                <p>
+                    Explore famous cities filled with culture and excitement.
+                </p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 Travel Explorer | Designed with HTML & CSS</p>
+    </footer>
 
 </body>
 </html>
